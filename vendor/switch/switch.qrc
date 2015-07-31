@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/com/improvide">
+        <file>qmldir</file>
+        <file>Switch.qml</file>
+    </qresource>
+</RCC>
