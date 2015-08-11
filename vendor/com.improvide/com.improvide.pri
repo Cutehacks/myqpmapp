@@ -1,5 +1,5 @@
 RESOURCES += \
-    $$PWD/switch.qrc
+    $$PWD/com.improvide.qrc
 
 HEADERS += \
     $$PWD/text.h
