@@ -2,7 +2,7 @@
 #include <QQmlApplicationEngine>
 #include <QDebug>
 
-#include "switch/text.h"
+#include "com.improvide/text.h"
 
 int main(int argc, char *argv[])
 {
@@ -10,9 +10,7 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    engine.addImportPath(QStringLiteral("qrc:/"));
-
-    qDebug() << engine.importPathList();
+    QPM_INIT(engine)
 
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
 
